@@ -1,0 +1,15 @@
+C:\Work\mist-project\api\ToDoProject\ToDoProjectBll\bin\Debug\net5.0\ToDoProjectBll.deps.json
+C:\Work\mist-project\api\ToDoProject\ToDoProjectBll\bin\Debug\net5.0\ToDoProjectBll.dll
+C:\Work\mist-project\api\ToDoProject\ToDoProjectBll\bin\Debug\net5.0\ref\ToDoProjectBll.dll
+C:\Work\mist-project\api\ToDoProject\ToDoProjectBll\bin\Debug\net5.0\ToDoProjectBll.pdb
+C:\Work\mist-project\api\ToDoProject\ToDoProjectBll\bin\Debug\net5.0\ToDoProjectDal.dll
+C:\Work\mist-project\api\ToDoProject\ToDoProjectBll\bin\Debug\net5.0\ToDoProjectDal.pdb
+C:\Work\mist-project\api\ToDoProject\ToDoProjectBll\obj\Debug\net5.0\ToDoProjectBll.csproj.AssemblyReference.cache
+C:\Work\mist-project\api\ToDoProject\ToDoProjectBll\obj\Debug\net5.0\ToDoProjectBll.GeneratedMSBuildEditorConfig.editorconfig
+C:\Work\mist-project\api\ToDoProject\ToDoProjectBll\obj\Debug\net5.0\ToDoProjectBll.AssemblyInfoInputs.cache
+C:\Work\mist-project\api\ToDoProject\ToDoProjectBll\obj\Debug\net5.0\ToDoProjectBll.AssemblyInfo.cs
+C:\Work\mist-project\api\ToDoProject\ToDoProjectBll\obj\Debug\net5.0\ToDoProjectBll.csproj.CoreCompileInputs.cache
+C:\Work\mist-project\api\ToDoProject\ToDoProjectBll\obj\Debug\net5.0\ToDoProjectBll.csproj.CopyComplete
+C:\Work\mist-project\api\ToDoProject\ToDoProjectBll\obj\Debug\net5.0\ToDoProjectBll.dll
+C:\Work\mist-project\api\ToDoProject\ToDoProjectBll\obj\Debug\net5.0\ref\ToDoProjectBll.dll
+C:\Work\mist-project\api\ToDoProject\ToDoProjectBll\obj\Debug\net5.0\ToDoProjectBll.pdb
