@@ -38,7 +38,9 @@ namespace ToDoProjectBll.Services.Impl
 
             var updatedCardInDb = CardMapper.Map(updatedCard);
             updatedCardInDb.Id = updatedCard.Id;
-            await _cardRepository.UpdateAsync(updatedCardInDb);
+            updatedCardInDb.Account_Id = Guid.Parse(userId);
+            await _cardRepository.RemoveByIdAsync(updatedCardInDb.Id);
+            await _cardRepository.AddAsync(updatedCardInDb);
             return true;
         }
 
@@ -49,6 +51,7 @@ namespace ToDoProjectBll.Services.Impl
 
             var newCardInDb = CardMapper.Map(newCard);
             newCardInDb.Id = Guid.NewGuid();
+            newCardInDb.Account_Id = Guid.Parse(userId);
 
             await _cardRepository.AddAsync(newCardInDb);
             return true;
