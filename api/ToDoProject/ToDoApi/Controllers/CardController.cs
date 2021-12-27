@@ -78,16 +78,16 @@ namespace ToDoApi.Controllers
         /// <param name="cardId">Requested deleting on platform</param>
         /// <returns>Status</returns>
         [HttpDelete("delete")]
-        public async Task<ActionResult> DeleteCardAsync([FromBody] string cardId)
+        public async Task<ActionResult> DeleteCardAsync([FromBody] DeleteDto cardId)
         {
-            if (!ModelState.IsValid || String.IsNullOrEmpty(cardId))
+            if (!ModelState.IsValid || String.IsNullOrEmpty(cardId.Id))
             {
                 return BadRequest();
             }
 
             try
             {
-                var res = await _cardService.DeleteAsync(cardId, ClaimsIdentityService.GetIdFromToken(User).ToString());
+                var res = await _cardService.DeleteAsync(cardId.Id, ClaimsIdentityService.GetIdFromToken(User).ToString());
                 if (res)
                     return Ok();
                 return BadRequest();
