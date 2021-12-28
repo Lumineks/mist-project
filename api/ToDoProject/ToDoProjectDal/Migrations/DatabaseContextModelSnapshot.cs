@@ -54,6 +54,9 @@ namespace ToDoProjectDal.Migrations
                     b.Property<string>("Text")
                         .HasColumnType("text");
 
+                    b.Property<DateTime>("Timestamp")
+                        .HasColumnType("timestamp without time zone");
+
                     b.Property<string>("Title")
                         .HasColumnType("text");
 

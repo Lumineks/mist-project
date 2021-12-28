@@ -19,7 +19,8 @@ namespace ToDoProjectBll.Mappers
                 {
                     Title = obj.Title,
                     Text = obj.Text,
-                    Done = obj.Done
+                    Done = obj.Done,
+                    Timestamp = obj.Timestamp
                 };
         }
 
@@ -32,7 +33,8 @@ namespace ToDoProjectBll.Mappers
                     Id = obj.Id,
                     Title = obj.Title,
                     Text = obj.Text,
-                    Done = obj.Done
+                    Done = obj.Done,
+                    Timestamp = obj.Timestamp
                 };
         }
     }

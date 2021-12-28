@@ -52,6 +52,7 @@ namespace ToDoProjectBll.Services.Impl
             var newCardInDb = CardMapper.Map(newCard);
             newCardInDb.Id = Guid.NewGuid();
             newCardInDb.Account_Id = Guid.Parse(userId);
+            newCardInDb.Timestamp = DateTime.UtcNow;
 
             await _cardRepository.AddAsync(newCardInDb);
             return true;

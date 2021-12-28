@@ -21,6 +21,8 @@ namespace ToDoProjectDal.Entities
 
         public Guid Account_Id { get; set; }
 
+        public DateTime Timestamp { get; set; }
+
         [ForeignKey("Account_Id")]
         public Account User { get; set; }
     }

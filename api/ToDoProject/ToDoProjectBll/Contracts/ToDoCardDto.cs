@@ -27,5 +27,7 @@ namespace ToDoProjectBll.Contracts
         /// Condition of task
         /// </summary>
         public bool Done { get; set; }
+
+        public DateTimeOffset Timestamp { get; set; }
     }
 }
